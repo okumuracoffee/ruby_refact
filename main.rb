@@ -39,9 +39,7 @@ end
 
 while true
     dispMainScreen()
-
     num = gets.to_i
-  
     case num
     when 1
       doEvaluation()   
